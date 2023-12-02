@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+.attribution { font-size: 11px; text-align: center}
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:Outfit;
+}
+body{
+	background-color: hsl(217, 54%, 11%);
+}
+.NFT-cart{
+	width: 275px;
+	height: 450px;
+	border-radius: 10px;
+	background-color:hsl(216, 50%, 16%) ;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-225px;
+	margin-left:-137.5px ;
+
+}
+.NFT-img-box{
+	width: 90%;
+	height: 50%;
+	margin: 15px auto;
+	
+}
+.NFT-img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.description{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.top{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+h1{
+	font-size: 20px;
+	color: white;
+}
+p{
+	font-size: 14px;
+	color:hsl(215, 51%, 70%);
+}
+.ETH p{
+	font-weight:600 ;
+	color:hsl(178, 100%, 50%);
+}
+.about{
+	line-height: 1.4;
+}
+.asets{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.left,.right{
+	display: flex;
+	gap: 5px;
+}
+hr{
+	height: 1px;
+	border: none;
+	background-color:hsl(215, 32%, 27%);
+	margin-bottom: 10px;
+}
+.bottom{
+	display: flex;
+	width: 100%;
+	height: 30px;
+	justify-content: space-between;
+	
+}
+.profile-pic-container{
+	height: 100%;
+}
+.profile-name{
+	width: 83%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	
+}
+.profile-name p{
+	font-size: 12px;
+	color:white;
+}
+span{
+	color:hsl(215, 51%, 70%);
+}
+.profile-pic{
+	height: 100%;
+	border: 1.5px solid rgb(255, 255, 255);
+	border-radius: 15px;
+}
+h1:hover,.profile-name p:hover{
+	color:hsl(178, 100%, 50%);
+	cursor: pointer;
+}
